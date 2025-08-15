@@ -12,9 +12,11 @@ a {
   color: Orange;
 }
 
-body {
-  background-image: url("./blablu/files/bg.jpg");
-  background-size: cover; /* l’image couvre tout l’écran */
-  background-position: center; /* centrée */
-  background-repeat: no-repeat;
+.mafoi {
+  position: fixed; /* reste fixe même au scroll */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* couvre toute la zone, garde les proportions */
+  z-index: -2; /* derrière tout le reste */
 }
